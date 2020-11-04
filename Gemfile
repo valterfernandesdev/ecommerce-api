@@ -12,6 +12,9 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Auth
 gem 'devise_token_auth', '~> 1.1.4'
 
+# Cors
+gem 'rack-cors', '~> 1.1.1'
+
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
